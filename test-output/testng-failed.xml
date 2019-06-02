@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="test.Login">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Login_to_Gtpl_Bank"/>
+          <include name="setUp"/>
+          <include name="Logout_of_Gtpl_Bank"/>
+          <include name="Verify_Whether_Gtpl_Bank_Dashboard_is_Correct"/>
+        </methods>
+      </class> <!-- test.Login -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
